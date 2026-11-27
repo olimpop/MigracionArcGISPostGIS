@@ -1,0 +1,50 @@
+﻿# Credenciales y configuracion local
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Respaldos
+*.bak
+*.bak.py
+*.old
+respaldo_*/
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Resultados y archivos generados
+resultados/
+salidas/
+reportes_generados/
+exportaciones/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Git
+.git/
